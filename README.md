@@ -2,7 +2,7 @@
 Step 1 :
 Add this above lines of code in your pom.xml
 
-
+	<plugins>
       <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
@@ -22,6 +22,7 @@ Add this above lines of code in your pom.xml
          <artifactId>spring-boot-maven-plugin</artifactId>
          <version>2.6.0</version>
     </plugin>
+   </plugins>
 
 
 Step 2:
