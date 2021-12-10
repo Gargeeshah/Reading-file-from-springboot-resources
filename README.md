@@ -2,8 +2,8 @@
 Step 1 :
 Add this above lines of code in your pom.xml
 
-<plugins>
-           <plugin>
+
+      <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.2.0</version>
@@ -16,13 +16,13 @@ Add this above lines of code in your pom.xml
                         </manifest>
                     </archive>
                 </configuration>
-            </plugin>
-			<plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>2.6.0</version>
-            </plugin>
-</plugins>
+      </plugin>
+	<plugin>
+         <groupId>org.springframework.boot</groupId>
+         <artifactId>spring-boot-maven-plugin</artifactId>
+         <version>2.6.0</version>
+    </plugin>
+
 
 Step 2:
 command to create a jar : mvn clean package
